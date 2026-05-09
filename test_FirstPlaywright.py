@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright
 
-def google_test():
+def test_google():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
